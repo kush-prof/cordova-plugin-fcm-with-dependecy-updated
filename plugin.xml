@@ -17,7 +17,7 @@
   specific language governing permissions and limitations
   under the License.
 -->
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-fcm-with-dependecy-updated" version="7.0.9">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-fcm-with-dependecy-updated-nxq" version="7.0.9">
 	<name>Cordova FCM Push Plugin</name>
 	<description>Google Firebase Cloud Messaging Cordova Push Plugin fork with dependecy updated</description>
 	<license>MIT</license>
@@ -46,7 +46,7 @@
 					<category android:name="android.intent.category.DEFAULT" />
 				</intent-filter>
 			</activity>
-			<service 
+			<service
 				android:name="com.gae.scaffolder.plugin.MyFirebaseMessagingService"
 				android:stopWithTask="false">
 				<intent-filter>
