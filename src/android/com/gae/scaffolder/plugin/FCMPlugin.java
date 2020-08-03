@@ -69,6 +69,7 @@ public class FCMPlugin extends CordovaPlugin {
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         super.initialize(cordova, webView);
         Log.d(TAG, "==> FCMPlugin initialize");
+        Log.d(TAG, "==> FCMPlugin initialize custom");
 
         FirebaseMessaging.getInstance().subscribeToTopic("android");
         FirebaseMessaging.getInstance().subscribeToTopic("all");
