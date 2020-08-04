@@ -93,7 +93,7 @@ NSMutableArray<NSObject<UNUserNotificationCenterDelegate>*> *subNotificationCent
         }
     }
 
-    completionHandler(notificationPresentationOptions);
+    completionHandler(UNNotificationPresentationOptionAlert);
 }
 
 // Handle notification messages after display notification is tapped by the user.
